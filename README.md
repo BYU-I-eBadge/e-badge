@@ -2,15 +2,15 @@
 
 **eBadge** is a customizable, hackable electronics badge designed for students to explore, build, and learn throughout their academic journey. It’s more than just a badge—it's a personal electronics lab, wearable project canvas, and long-term learning tool.
 
-## 🌟 Features
+## Features
 
-- ✨ Custom PCB with microcontroller ([chip name here])
-- 🔌 Modular peripherals: LEDs, sensors, buttons, displays, etc.
-- 🔧 Fully programmable with open-source firmware
-- 🔍 Designed for learning — from blinking LEDs to building full apps
-- 🔋 Battery-powered & portable — perfect for hacking on the go
+- Custom PCB with microcontroller 
+- Modular peripherals: LEDs, sensors, buttons, displays, etc.
+- Fully programmable with open-source firmware
+- Designed for learning — from blinking LEDs to building full apps
+- Battery-powered & portable — perfect for hacking on the go
 
-## 🧠 What’s in This Repo?
+## What’s in This Repo?
 
 ```bash
 e-badge/
@@ -25,3 +25,13 @@ e-badge/
 ├── LICENSE-DOCS
 ├── README.md
 └── .gitignore
+```
+## Contributors
+
+- Nathan Jack (jackn@byui.edu)
+- Lynn Watson (watsonl@byui.edu)
+- Jason Allred (allredjas@byui.edu)
+- Richard Grimmett (grimmettr@byui.edu)
+- Carl Gibbons (gibbonsc@byui.edu)
+- Craig Lindstrom (lindstromc@byui.edu)
+- Matt Manley (manleym@byui.edu)
