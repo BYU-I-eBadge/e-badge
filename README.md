@@ -26,6 +26,12 @@ e-badge/
 ├── README.md
 └── .gitignore
 ```
+## License
+
+- **Hardware** – [CERN-OHL-S v2.0](./LICENSE-HARDWARE)
+- **Firmware/Code** – [MIT License](./LICENSE-CODE)
+- **Docs & Assets** – [CC BY-SA 4.0](./LICENSE-DOCS)
+
 ## Contributors
 
 - Nathan Jack (jackn@byui.edu)
