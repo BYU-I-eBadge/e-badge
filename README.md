@@ -40,4 +40,5 @@ e-badge/
 - Richard Grimmett (grimmettr@byui.edu)
 - Carl Gibbons (gibbonsc@byui.edu)
 - Craig Lindstrom (lindstromc@byui.edu)
+- Gary Godderidge (godderidgeg@byui.edu)
 - Matt Manley (manleym@byui.edu)
