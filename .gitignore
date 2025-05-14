@@ -81,3 +81,6 @@ fabrication/
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# === Documentation ===
+!docs/**/*.pdf
