@@ -68,8 +68,6 @@ fabrication/
 
 # 3D rendering cache
 3dviewer/
-*.wrl
-*.step
 *.stp
 
 # === OS & Editor Junk ===
