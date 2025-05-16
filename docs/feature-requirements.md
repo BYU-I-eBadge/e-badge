@@ -29,7 +29,7 @@ These are specific features that are needed, along with their application or req
     * Applications
         * Single step debugging
 
-### Peripherals
+### On-board Peripherals
 * SPI Multicolor Screen (refresh >= 30 Hz)
     * MCU Interface Pins (5/6)
         * SPI Data
@@ -85,6 +85,26 @@ These are specific features that are needed, along with their application or req
     * Applications
         * Onboard inputs to use for beginners (no negative true logic)
         * Learn about pull-down vs pull-up resistor configuration
+* Speaker
+    * MCU Interface Pins (2/3)
+        * Data (PDM)
+        * Clock (PDM)
+        * Serial Clock (I<sup>2</sup>S)
+        * Word Select (I<sup>2</sup>S)
+        * Serial Data (I<sup>2</sup>S)
+    * People
+        * Matt Manley
+        * Jason Allred
+    * Classes
+        * ECEN 101 (Intro to Electrical Engineering)
+        * ECEN 106 (Computer Systems)
+        * ECEN 260 (Microprocessor-based System Design)
+        * CSE 290R (Game Development)
+    * Applications
+        * Learn about digital audio
+        * Use via an abstracted interface/driver for other programs
+
+### Interfaces
 * JST/Grove Connectors
     * MCU Interface Pins (2)
         * I<sup>2</sup>C Data
@@ -103,7 +123,7 @@ These are specific features that are needed, along with their application or req
     * MCU Interface Pins (2)
         * I<sup>2</sup>C Data
         * I<sup>2</sup>C Clock
-        * Generic 1-10 Hz Clock
+        * Generic 1-10 Hz Clock (Use another oscillator?)
     * People
         * Matt Manley
         * Nathan Jack
@@ -115,3 +135,22 @@ These are specific features that are needed, along with their application or req
         * Compatible with an ecosystem of collectibles
         * Encourage involvement in societies
         * Additional flexible E<sup>2</sup>C connection
+* Generic Female Headers
+    * MCU Interface Pins
+        * Digital GPIO
+        * ADC Input
+        * SPI Data
+        * SPI Clock
+        * I<sup>2</sup>C Data
+        * I<sup>2</sup>C Clock
+    * People
+        * General consensus
+    * Classes
+        * ECEN 101 (Intro to Electrical Engineering)
+        * ECEN 106 (Computer Systems)
+        * ECEN 260 (Microprocessor-based System Design)
+        * ECEN 361 (Embedded Systems)
+        * ECEN 461 (Advanced Embedded Systems)
+    * Applications
+        * Generic use
+        * Breadboarding circuits
