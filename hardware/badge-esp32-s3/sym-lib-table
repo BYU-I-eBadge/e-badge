@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "lcsc-lib")(type "KiCad")(uri "/home/carson/e-badge/hardware/lcsc-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "lcsc_fetch")(type "KiCad")(uri "/home/carson/Nextcloud/Documents/school/ECEN499/lcsc_fetch.kicad_sym")(options "")(descr ""))
+  (lib (name "jlc_extended")(type "KiCad")(uri "/home/carson/Nextcloud/Documents/school/ECEN499/jlc_extended.kicad_sym")(options "")(descr ""))
 )

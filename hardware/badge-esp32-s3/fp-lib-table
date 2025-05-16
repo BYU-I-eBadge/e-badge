@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lcsc-lib")(type "KiCad")(uri "/home/carson/e-badge/hardware/lcsc-lib.pretty")(options "")(descr ""))
+)
