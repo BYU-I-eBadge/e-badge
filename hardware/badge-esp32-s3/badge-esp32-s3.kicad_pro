@@ -413,6 +413,18 @@
     [
       "e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec",
       "Root"
+    ],
+    [
+      "e365f6ed-f2b4-4ac9-8336-75c01e8e2e23",
+      "USB-UART"
+    ],
+    [
+      "791664b9-b2ed-4f3b-9466-1f499155c51d",
+      "ESP USB"
+    ],
+    [
+      "f36e3e2c-eb39-474f-a489-171fecc16703",
+      "3.3V LDO"
     ]
   ],
   "text_variables": {}
