@@ -616,6 +616,10 @@
       "Root"
     ],
     [
+      "f36e3e2c-eb39-474f-a489-171fecc16703",
+      "3.3V LDO"
+    ],
+    [
       "e365f6ed-f2b4-4ac9-8336-75c01e8e2e23",
       "USB-UART"
     ],
@@ -624,8 +628,8 @@
       "ESP USB"
     ],
     [
-      "f36e3e2c-eb39-474f-a489-171fecc16703",
-      "3.3V LDO"
+      "94c82a22-114c-4c54-9d6a-9512e8cebb9e",
+      "UART Interface"
     ]
   ],
   "text_variables": {}
