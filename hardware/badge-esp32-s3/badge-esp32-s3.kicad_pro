@@ -630,6 +630,14 @@
     [
       "94c82a22-114c-4c54-9d6a-9512e8cebb9e",
       "UART Interface"
+    ],
+    [
+      "b79c388b-f340-4022-8bff-2018e70f780a",
+      "Download Mode Toggle"
+    ],
+    [
+      "ac5926f6-d694-4e07-a059-1576f5340396",
+      "ESP Reset"
     ]
   ],
   "text_variables": {}
