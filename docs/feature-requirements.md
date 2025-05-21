@@ -134,7 +134,7 @@ These are specific features that are needed, along with their application or req
     * Applications
         * Compatible with an ecosystem of collectibles
         * Encourage involvement in societies
-        * Additional flexible E<sup>2</sup>C connection
+        * Additional flexible I<sup>2</sup>C connection
 * Generic Female Headers
     * MCU Interface Pins
         * Digital GPIO
