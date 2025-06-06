@@ -884,6 +884,30 @@
     [
       "c1331987-271b-4023-9372-07cdd8fb060f",
       "Display"
+    ],
+    [
+      "cf4b41f4-37f8-453c-b748-b2fe0c3fb5a0",
+      "LEDs"
+    ],
+    [
+      "df7bf792-82c5-4feb-b2e3-af668da9099d",
+      "Audio"
+    ],
+    [
+      "9131a646-b9dc-4004-a7df-1b58b7ca0b9a",
+      "Charging"
+    ],
+    [
+      "61971e93-08b4-4717-9ec8-ac07d8e404d2",
+      "SD Card"
+    ],
+    [
+      "069334c8-a377-4249-b519-18db4f2b1959",
+      "Exposed Pins"
+    ],
+    [
+      "9feb22ac-0492-47b5-89fe-3e77a54de168",
+      "Onboard Peripheral"
     ]
   ],
   "text_variables": {}

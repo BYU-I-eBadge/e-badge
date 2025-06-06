@@ -1,4 +1,4 @@
-25827316707905500
+25832763085702840
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103460,6 +103460,13 @@ LED-ARRAY-SMD_4P-L1.6-W1.6-BL-CW
 4
 4
 lcsc-lib
+ESP32-S3-MINI-1
+2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
+2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
+0
+73
+65
+lcsc-lib
 FPC-SMD_AFC01-S12FCA-00
 
 
@@ -103487,6 +103494,20 @@ SOD-523_L1.2-W0.8-LS1.6-BI
 0
 2
 2
+lcsc-lib
+SW-SMD_L3.9-W3.0-P4.45
+
+
+0
+2
+2
+lcsc-lib
+VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
+
+
+0
+25
+25
 lcsc-lib
 WIRELM-SMD_ESP32-S3-WROOM-1
 
