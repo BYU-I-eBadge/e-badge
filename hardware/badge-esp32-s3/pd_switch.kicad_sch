@@ -630,7 +630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f34b88d-edfb-4b30-ab1f-acd0c03c84a9")
-		(property "Reference" "C"
+		(property "Reference" "C13"
 			(at 143.51 95.25 90)
 			(effects
 				(font
@@ -810,6 +810,10 @@
 					(reference "C12")
 					(unit 1)
 				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/b79c388b-f340-4022-8bff-2018e70f780a"
+					(reference "C13")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -823,7 +827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07ce74d-6f33-4dea-9937-0b43b7b93944")
-		(property "Reference" "SW"
+		(property "Reference" "SW?"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -887,6 +891,10 @@
 					(reference "SW2")
 					(unit 1)
 				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/b79c388b-f340-4022-8bff-2018e70f780a"
+					(reference "SW?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -900,7 +908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bbeae7-33f4-4bd9-95c6-a65be05500e8")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0101"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -951,6 +959,10 @@
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/ac5926f6-d694-4e07-a059-1576f5340396"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/b79c388b-f340-4022-8bff-2018e70f780a"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

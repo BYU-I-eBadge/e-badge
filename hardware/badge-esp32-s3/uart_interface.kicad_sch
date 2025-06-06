@@ -3216,6 +3216,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 156.21 30.48)
+		(end 250.19 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fd0b54da-ca3f-47b7-a94f-cf22e946a3b0)
+	)
+	(text "Auto-reset after programming"
+		(exclude_from_sim yes)
+		(at 176.53 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92a33796-326c-4774-a185-ba129d064cd5")
+	)
 	(junction
 		(at 34.29 113.03)
 		(diameter 0)
