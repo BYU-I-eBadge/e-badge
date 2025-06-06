@@ -1720,8 +1720,8 @@
 		)
 		(uuid "b0a69cfa-05fe-4d45-80a4-557f1016aaaa")
 	)
-	(hierarchical_label "VCC_5V"
-		(shape bidirectional)
+	(hierarchical_label "VIN"
+		(shape input)
 		(at 101.6 63.5 180)
 		(effects
 			(font
