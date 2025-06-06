@@ -3526,6 +3526,48 @@
 		)
 	)
 	(sheet
+		(at 210.185 93.345)
+		(size 18.415 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46f3dcd2-09bb-438b-8d51-2dc6bbd5ef62")
+		(property "Sheetname" "Gamepad"
+			(at 210.185 92.6334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gamepad.kicad_sch"
+			(at 210.185 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 45.72)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
