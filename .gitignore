@@ -82,3 +82,4 @@ fabrication/
 
 # === Documentation ===
 !docs/**/*.pdf
+hardware/badge-esp32-s3/~badge-esp32-s3.kicad_sch.lck
