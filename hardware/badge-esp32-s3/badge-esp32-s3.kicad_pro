@@ -908,6 +908,10 @@
     [
       "9feb22ac-0492-47b5-89fe-3e77a54de168",
       "Onboard Peripheral"
+    ],
+    [
+      "59e7d68d-5d39-4249-b811-d3905f2cced1",
+      "PushButton"
     ]
   ],
   "text_variables": {}
