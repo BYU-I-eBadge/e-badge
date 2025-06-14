@@ -3568,6 +3568,48 @@
 		)
 	)
 	(sheet
+		(at 102.87 129.54)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59e7d68d-5d39-4249-b811-d3905f2cced1")
+		(property "Sheetname" "PushButton"
+			(at 102.87 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButton.kicad_sch"
+			(at 102.87 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 218.44 123.19)
 		(size 20.32 8.89)
 		(exclude_from_sim no)
