@@ -9004,7 +9004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pd_switch.kicad_sch"
+		(property "Sheetfile" "dm_pd_switch.kicad_sch"
 			(at 209.55 27.2546 0)
 			(effects
 				(font
