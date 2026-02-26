@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lcsc-lib")(type "KiCad")(uri "${KIPRJMOD}/../lcsc-lib/lcsc-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "AdafruitJoystick")(type "KiCad")(uri "${KIPRJMOD}/../lcsc-lib/AdaFruitJoystick/2765/2765.kicad_sym")(options "")(descr ""))
+  (lib (name "minibadge")(type "KiCad")(uri "${KIPRJMOD}/../minibadge/minibadge_full.kicad_sym")(options "")(descr ""))
+)

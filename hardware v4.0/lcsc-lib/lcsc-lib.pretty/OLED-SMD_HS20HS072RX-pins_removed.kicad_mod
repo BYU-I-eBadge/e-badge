@@ -1,0 +1,205 @@
+(footprint "OLED-SMD_HS20HS072RX-pins_removed"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LCD"
+		(at 0 -4 180)
+		(layer "F.SilkS")
+		(uuid "9e947bcb-fe44-40cd-a756-4112980a1551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED-SMD_HS20HS072RX-pins_removed"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(uuid "58733ca9-6083-44ce-9c61-e573104e845b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "606a2ee7-e81f-4274-8fa9-cd58c7052d77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09045be9-f1a1-4731-9f01-157dbf0505de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -18.02 -70)
+		(end -18.02 -18.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54a4029d-017c-422e-8dc5-8b1ef35fc017")
+	)
+	(fp_line
+		(start -18.02 -18.2)
+		(end 18.17 -18.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a4e6a3d-fd4a-47a3-b647-987b2ee1e571")
+	)
+	(fp_line
+		(start -11.69 -5.25)
+		(end -11.69 -18.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f37f197-7708-4ce5-8ee2-db792adeb43e")
+	)
+	(fp_line
+		(start -3.75 -5.25)
+		(end -11.69 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b8cfaaf-06db-48cc-86bc-e1411e8382c5")
+	)
+	(fp_line
+		(start -3.75 2.5)
+		(end -3.75 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb335a3d-bbfa-46b8-85c1-a2366204d0da")
+	)
+	(fp_line
+		(start -3.75 2.5)
+		(end -3.13 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8858f45-38b6-4b61-8db2-3ad6de23aa3f")
+	)
+	(fp_line
+		(start -3.5 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2192ac4-4fa4-4b33-87c2-381eb2fee554")
+	)
+	(fp_line
+		(start 3.25 -5.25)
+		(end 11.25 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33375af3-c19b-4613-a35a-4bae66688ec4")
+	)
+	(fp_line
+		(start 3.25 2.5)
+		(end 3.25 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7642dcc-0614-480b-981c-057d11de9897")
+	)
+	(fp_line
+		(start 8.3 -15.25)
+		(end 8.3 -18.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c930da40-b072-4bb3-a35b-2d2339af025c")
+	)
+	(fp_line
+		(start 11.25 -15.25)
+		(end 8.3 -15.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79eaec88-ea50-4422-85bd-e0a36f645e38")
+	)
+	(fp_line
+		(start 11.25 -5.25)
+		(end 11.25 -15.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "279aed6d-eff1-402c-8990-453ebaddc7cf")
+	)
+	(fp_line
+		(start 18.17 -70)
+		(end -18.02 -70)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4109e3e3-2c74-439f-9d1c-848169f9cf6a")
+	)
+	(fp_line
+		(start 18.17 -18.2)
+		(end 18.17 -70)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa1f3031-8939-471b-bf7e-f6173d0ae7d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "47d28489-a1c4-433f-af51-f4564729de32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
