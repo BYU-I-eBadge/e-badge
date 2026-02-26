@@ -65960,7 +65960,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "3.3V"
+	(gr_text "5V"
 		(at 167.02 134.1 90)
 		(layer "F.SilkS")
 		(uuid "ce7787c7-9ba1-4c2c-8dde-a1190db494c8")
