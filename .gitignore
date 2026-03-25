@@ -69,6 +69,9 @@ fabrication/
 *.drl
 *.zip
 
+# Exception: Allow fabrication output zip.
+!badge-esp32-s3.zip
+
 # 3D rendering cache
 3dviewer/
 *.stp
