@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_issues|211500000|101175000|b632befc-63f2-4ac3-9d11-ce87679028f4|00000000-0000-0000-0000-000000000000",
+          "Not important to us"
+        ],
+        [
           "lib_footprint_mismatch|147150000|65325000|0e7496ef-dd17-49e9-92d6-30d7d01de0d4|00000000-0000-0000-0000-000000000000",
           "This does not match because we added custom alignment for the assembly"
         ],
