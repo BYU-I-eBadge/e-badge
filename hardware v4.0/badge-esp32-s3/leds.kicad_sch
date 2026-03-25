@@ -1315,6 +1315,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:GVS1A107M0604CN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GVS1A107M0604CN"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22383610"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GVS1A107M0604CN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 1.78) (xy -1.78 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.78) (xy -0.51 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.15 1.79)
+					(mid 5.5048 -0.0047)
+					(end 1.13 -1.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc-lib:RS-3535MWAM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2863,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 86.36) (xy 31.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc58996-22ac-42bf-9c3a-c4dcbd6b27b9")
+	)
+	(wire
+		(pts
 			(xy 226.06 85.09) (xy 226.06 92.71)
 		)
 		(stroke
@@ -3580,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "6bf541d7-8ac6-44e0-afd1-4bf56c0acd19")
+	)
+	(wire
+		(pts
+			(xy 31.75 73.66) (xy 31.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da7cac5-c07d-4685-87e8-01539ec367ca")
 	)
 	(wire
 		(pts
@@ -5103,16 +5291,16 @@
 		)
 		(uuid "5806e5f6-4479-4321-b0d8-c1efad3b13ca")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "PWR_RAW"
 		(shape input)
-		(at 55.88 62.23 180)
+		(at 64.77 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "92b8e40a-9d94-4ec3-a54b-b2731e81ca32")
+		(uuid "663ffb8e-62dd-42b5-8fe9-3a114ea8c110")
 	)
 	(hierarchical_label "AddrLED"
 		(shape input)
@@ -5125,16 +5313,16 @@
 		)
 		(uuid "a528bbb9-3c58-4bfc-a7a7-4f6cdfdc8844")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "PWR_RAW"
 		(shape input)
-		(at 64.77 139.7 180)
+		(at 55.88 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c4ce05d9-ecf1-434d-a13d-7f727e6c4472")
+		(uuid "c3198c19-eb13-4bb2-a4fe-8948d7611c52")
 	)
 	(hierarchical_label "RGB_RED"
 		(shape input)
@@ -5146,6 +5334,17 @@
 			(justify right)
 		)
 		(uuid "e4f87a16-650f-4b13-9169-2588c33a3825")
+	)
+	(hierarchical_label "PWR_RAW"
+		(shape input)
+		(at 31.75 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7b140f3-4f07-4fab-8526-2fd1b58c705c")
 	)
 	(hierarchical_label "RGB_BLU"
 		(shape input)
@@ -7108,6 +7307,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc-lib:GVS1A107M0604CN")
+		(at 31.75 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6906d1b4-614e-498e-b93c-80fc11c7d3d4")
+		(property "Reference" "C24"
+			(at 35.56 81.4923 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GVS1A107M0604CN"
+			(at 35.56 84.0323 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
+			(at 24.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22383610"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9b1e5ee-d83d-478b-a625-0883a6999915")
+		)
+		(pin "2"
+			(uuid "be5202fd-55f0-4a0f-8375-0642727390f5")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/cf4b41f4-37f8-453c-b748-b2fe0c3fb5a0"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc-lib:WS2813B-2121")
 		(at 99.06 82.55 0)
 		(unit 1)
@@ -8155,6 +8433,72 @@
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/cf4b41f4-37f8-453c-b748-b2fe0c3fb5a0"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9122e3e3-3a4c-4f5f-bb49-13ad6338b9e6")
+		(property "Reference" "#PWR058"
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a218436c-9350-4c86-8be2-1875b5adf2db")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/cf4b41f4-37f8-453c-b748-b2fe0c3fb5a0"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

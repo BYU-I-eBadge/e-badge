@@ -694,10 +694,6 @@
 					(reference "SW2")
 					(unit 1)
 				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/b79c388b-f340-4022-8bff-2018e70f780a"
-					(reference "SW1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -762,10 +758,6 @@
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/ac5926f6-d694-4e07-a059-1576f5340396"
 					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/b79c388b-f340-4022-8bff-2018e70f780a"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)

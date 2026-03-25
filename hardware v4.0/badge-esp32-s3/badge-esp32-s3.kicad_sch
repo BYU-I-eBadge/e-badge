@@ -2813,6 +2813,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 69.85) (xy 255.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f62eb76-4cf7-428f-bcd9-b263d2bbc3dc")
+	)
+	(wire
+		(pts
 			(xy 54.61 71.12) (xy 54.61 72.39)
 		)
 		(stroke
@@ -6238,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 20.32 19.05 0)
 			(effects
 				(font
@@ -6401,6 +6411,71 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 237.49 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5945d394-faf2-45a0-80bb-5e46b84cc0ea")
+		(property "Reference" "#PWR087"
+			(at 237.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_RAW"
+			(at 237.49 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcb3c8db-9762-4177-afee-0f1c81ada465")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 20.32 29.21 0)
 			(effects
 				(font
@@ -7031,7 +7106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 20.32 34.29 0)
 			(effects
 				(font
@@ -7294,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at 20.32 24.13 0)
 			(effects
 				(font
@@ -9220,6 +9295,16 @@
 		(pin "RGB_BLU" input
 			(at 255.27 72.39 180)
 			(uuid "899e3e66-f8ed-4e19-a20c-3e4d83b55958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_RAW" input
+			(at 255.27 69.85 180)
+			(uuid "bc85b41c-16fb-4584-b9cf-7a84fdd38a58")
 			(effects
 				(font
 					(size 1.27 1.27)

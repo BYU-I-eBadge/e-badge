@@ -4,4 +4,5 @@
   (lib (name "AdafruitJoystick")(type "KiCad")(uri "${KIPRJMOD}/../lcsc-lib/AdaFruitJoystick/2765")(options "")(descr ""))
   (lib (name "minibadge")(type "KiCad")(uri "${KIPRJMOD}/../minibadge")(options "")(descr ""))
   (lib (name "misc-lib")(type "KiCad")(uri "${KIPRJMOD}/../misc-lib")(options "")(descr ""))
+  (lib (name "MountingHole")(type "KiCad")(uri "C:/Users/matts/Documents/GitHub/E-Badge-Project/e-badge/hardware v4.0/misc-lib/MountingHole.pretty")(options "")(descr ""))
 )
