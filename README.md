@@ -35,7 +35,7 @@ e-badge/
 ## Contributors
 
 - Nathan Jack (jackn@byui.edu)
-- Lynn Watson (watsonl@byui.edu)
+- Lynn Watson (lynn@lswatson.com)
 - Jason Allred (allredjas@byui.edu)
 - Richard Grimmett (grimmettr@byui.edu)
 - Carl Gibbons (gibbonsc@byui.edu)
