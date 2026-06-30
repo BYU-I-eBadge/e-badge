@@ -8182,7 +8182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usbc_5v_v2_data.kicad_sch"
+		(property "Sheetfile" "usbc_esp_5v_v2_data.kicad_sch"
 			(at 25.4 59.0046 0)
 			(effects
 				(font
@@ -9322,7 +9322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usbc_5v_v2_data.kicad_sch"
+		(property "Sheetfile" "usbc_UART_5v_v2_data.kicad_sch"
 			(at 245.11 53.9246 0)
 			(effects
 				(font

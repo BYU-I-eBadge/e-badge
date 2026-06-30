@@ -1,4 +1,4 @@
-25219770278877698
+25243734743917878
 AdafruitJoystick
 SW_2765
 
@@ -101122,6 +101122,20 @@ C0805
 2
 2
 lcsc-lib
+CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD
+
+
+0
+2
+2
+lcsc-lib
+CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD
+
+
+0
+2
+2
+lcsc-lib
 CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT
 
 
@@ -101138,6 +101152,13 @@ CONN-SMD_B4B-PH-SM4-TB-LF-SN
 lcsc-lib
 CONN-TH_2P-P2.00_PH-2A_C2319
 
+
+0
+2
+2
+lcsc-lib
+CONN-TH_2P-P3.81_KF124-3.81-2P
+KF124-3.81-2P 3.81mm
 
 0
 2
@@ -101255,6 +101276,13 @@ IND-SMD_L3.2-W2.5_L3225
 2
 2
 lcsc-lib
+IND-SMD_L4.0-W4.0
+
+
+0
+2
+2
+lcsc-lib
 IND-SMD_L4.0-W4.0_XEL4020
 
 
@@ -101346,6 +101374,13 @@ SC-70-6_L2.0-W1.3-P0.65-LS2.1-BL
 6
 6
 lcsc-lib
+SMAF_L3.5-W2.6-LS4.7-RD
+
+
+0
+2
+2
+lcsc-lib
 SMA_L4.5-W2.6-LS5.1-RD
 
 
@@ -101360,7 +101395,21 @@ SOD-123_L2.7-W1.6-LS3.7-RD
 2
 2
 lcsc-lib
+SOD-323_L1.7-W1.3-LS2.6-RD
+
+
+0
+2
+2
+lcsc-lib
 SOD-523_L1.2-W0.8-LS1.6-BI
+
+
+0
+2
+2
+lcsc-lib
+SOD-523_L1.2-W0.8-LS1.6-RD
 
 
 0
@@ -101423,12 +101472,33 @@ SW-TH_G-SWITCH_SK-12F04-G050
 3
 3
 lcsc-lib
+SW-TH_KH-SK22D07-G5
+
+
+0
+8
+8
+lcsc-lib
+SW-TH_SK-22F18-G050
+
+
+0
+8
+8
+lcsc-lib
 TF-SMD_TF-PUSH
 
 
 0
 15
 13
+lcsc-lib
+TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+6
+6
 lcsc-lib
 VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
 
@@ -101437,12 +101507,26 @@ VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
 25
 25
 lcsc-lib
+VQFN-HR-12_L2.5-W2.0-P0.50-BL
+
+
+0
+12
+12
+lcsc-lib
 VQFN-HR-15_L3.0-W2.5-P0.50-BL_TPS63070RNMR
 
 
 0
 15
 15
+lcsc-lib
+VSSOP-8_L3.0-W3.0-P0.65-LS4.9-BL
+
+
+0
+8
+8
 lcsc-lib
 WIRELM-SMD_ESP32-S3-WROOM-1
 
@@ -101457,6 +101541,13 @@ WSON-10_L3.0-W3.0-P0.50-BL-EP-A
 0
 11
 11
+lcsc-lib
+X2QFN-12_L1.6-W1.6-P0.40-BL
+
+
+0
+12
+12
 lcsc-lib
 XDFN-4_L1.0-W1.0-P0.65-BL-EP
 
