@@ -19,6 +19,11 @@
 # TODO new rule: non-plated slots: min diameter/width 1.0mm
 # JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)""
 
+(rule "Global footprint pad clearance override"
+    (constraint clearance (min 0.127mm))
+    (condition "A.Type == 'Pad'")
+)
+
 (rule "Track width, outer layer (1oz copper)"
 	(layer outer)
 	(condition "A.Type == 'track'")
@@ -47,7 +52,7 @@
 	(layer "?.Silkscreen")
 	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
 	(constraint text_thickness (min 0.15mm))
-	(constraint text_height (min 1mm))
+	(constraint text_height (min 0.8mm))
 )
 
 (rule "Pad to Silkscreen"

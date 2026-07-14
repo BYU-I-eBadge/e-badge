@@ -26,14 +26,14 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
+        "fab_text_size_h": 0.9,
+        "fab_text_size_v": 0.9,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
+        "other_text_size_h": 0.9,
+        "other_text_size_v": 0.9,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
@@ -43,8 +43,8 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.9,
+        "silk_text_size_v": 0.9,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -64,16 +64,36 @@
           "This does not match because we added custom alignment for the assembly"
         ],
         [
-          "lib_footprint_mismatch|182970000|80810000|fa3e6369-0377-4b9c-a06a-d64ba2acb996|00000000-0000-0000-0000-000000000000",
-          "this does not match because we added custom alignment for assembly"
+          "silk_edge_clearance|207535124|93112290|5e625ae3-ffec-48fc-9ef4-4542cd73bcc4|7d454ac5-bf2a-4a6b-99d9-5d1de77fe2a6",
+          "Expected"
         ],
         [
-          "silk_edge_clearance|211500000|91240000|9a7314fc-0112-4008-993c-65a89d0bfe71|b9a921c9-80f1-4459-a49b-194e4171c3ee",
-          "we are okay with the switch silkscreen getting clipped"
+          "silk_edge_clearance|211022727|89747499|34e27389-81e3-4ba7-8e8b-68d01fbe9224|b878f88b-988c-4192-a072-b9d5d2b8ccf4",
+          "Expected"
         ],
         [
-          "silk_edge_clearance|211500000|94240000|9a7314fc-0112-4008-993c-65a89d0bfe71|5f78643c-ba49-4846-ac37-a064d34a6d8a",
-          "we are okay with switch silkscreen getting clipped"
+          "silk_edge_clearance|211302500|90003347|34e27389-81e3-4ba7-8e8b-68d01fbe9224|a8522f5f-ea3c-419e-8b61-3affb672df6e",
+          "Expected"
+        ],
+        [
+          "silk_edge_clearance|211475000|110025000|5fa1bbf1-7a08-4bfb-ac21-ae393804fdfb|08ced2b3-ddcb-45ef-930e-59e159bf5d05",
+          "Expected"
+        ],
+        [
+          "silk_edge_clearance|211475000|125265000|5fa1bbf1-7a08-4bfb-ac21-ae393804fdfb|12479edc-482d-41ef-9184-78880785ec44",
+          "Expected"
+        ],
+        [
+          "silk_edge_clearance|211475000|125265000|5fa1bbf1-7a08-4bfb-ac21-ae393804fdfb|9821cc3e-4c8d-46d6-ba6d-2d5c6e853fd8",
+          "Expected"
+        ],
+        [
+          "silk_edge_clearance|211500000|102175000|5fa1bbf1-7a08-4bfb-ac21-ae393804fdfb|185e4fc1-685c-4d36-a857-546ed954244a",
+          "Expected"
+        ],
+        [
+          "silk_edge_clearance|211500000|105165000|5fa1bbf1-7a08-4bfb-ac21-ae393804fdfb|bb9911a8-0ff5-454d-9d86-a87eb8889a3e",
+          "Expected"
         ],
         [
           "silk_over_copper|109850000|101525000|3bf9c5cb-5fcb-44a7-a876-6b66de8f8ba2|00000000-0000-0000-0000-000000000000",
@@ -82,6 +102,10 @@
         [
           "silk_over_copper|111500000|101525000|b90ca581-1ae8-4b0b-ae28-b8d90781a09d|00000000-0000-0000-0000-000000000000",
           "This is where the actual screen sits"
+        ],
+        [
+          "silk_over_copper|193986915|89966814|b29e9f69-9bba-4083-b739-0be63c058e2d|00000000-0000-0000-0000-000000000000",
+          "Expected"
         ]
       ],
       "meta": {
@@ -1042,7 +1066,7 @@
     ],
     [
       "9131a646-b9dc-4004-a7df-1b58b7ca0b9a",
-      "Charging"
+      "Power Input Managment"
     ],
     [
       "61971e93-08b4-4717-9ec8-ac07d8e404d2",

@@ -1531,6 +1531,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:SS32F_C719168"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS32F_C719168"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:SMAF_L3.5-W2.6-LS4.7-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Shikues-SS32F_C719168.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SHIKUES(时科)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SS32F"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C719168"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS32F_C719168_0_1"
+				(polyline
+					(pts
+						(xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS32F_C719168_1_1"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1658,6 +1831,12 @@
 		(uuid "578055bc-4ed3-4ac3-b4eb-0933ecf1074a")
 	)
 	(junction
+		(at 166.37 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b196a69-efeb-40d7-a727-4000ff82fcd2")
+	)
+	(junction
 		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1668,12 +1847,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83f47f9-618d-4b67-881f-43cd7a0804b4")
-	)
-	(junction
-		(at 166.37 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c85bbd0c-a018-49c0-be99-8ce6645d9da2")
 	)
 	(junction
 		(at 151.13 60.96)
@@ -1708,6 +1881,16 @@
 			(type default)
 		)
 		(uuid "0ba4ac48-0188-48ef-b57f-92edfa3b9a26")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdb1e8b-e341-4e11-b0d0-e9342bb783b0")
 	)
 	(wire
 		(pts
@@ -1791,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 60.96) (xy 154.94 60.96)
+			(xy 151.13 60.96) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1801,13 +1984,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 60.96) (xy 166.37 60.96)
+			(xy 166.37 49.53) (xy 179.07 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "937bc5bb-c772-432d-98a7-4e0b19ae92fe")
+		(uuid "9c6e96c1-0202-485f-938a-948e588973c9")
 	)
 	(wire
 		(pts
@@ -1821,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 166.37 60.96)
+			(xy 187.96 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1838,6 +2021,16 @@
 			(type default)
 		)
 		(uuid "a86e5b7b-6577-4ef9-86c9-8b34436ab25e")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb569b72-160b-4007-ac64-3fb1ec6e670d")
 	)
 	(wire
 		(pts
@@ -1881,6 +2074,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d484aa5d-2a2e-40b9-a1ff-3d5e0d1a3d66")
+	)
+	(wire
+		(pts
 			(xy 129.54 90.17) (xy 129.54 87.63)
 		)
 		(stroke
@@ -1920,6 +2123,17 @@
 		)
 		(uuid "0a7b267e-76d0-452b-be26-e273d2baf113")
 	)
+	(hierarchical_label "USB_RAW_LowCurrent"
+		(shape bidirectional)
+		(at 198.12 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57bf0d09-e9d8-4abf-ba45-7ff181f833fd")
+	)
 	(hierarchical_label "USBD_N"
 		(shape bidirectional)
 		(at 143.51 86.36 0)
@@ -1931,9 +2145,9 @@
 		)
 		(uuid "65fec1ae-db84-4d9c-99ce-517f0c4e9357")
 	)
-	(hierarchical_label "VCC_5V"
+	(hierarchical_label "USB_RAW_HighCurrent"
 		(shape bidirectional)
-		(at 172.72 60.96 0)
+		(at 198.12 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,8 +2557,103 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc-lib:SS32F_C719168")
+		(at 182.88 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f9545f-31b5-48e9-a993-4ab79f283cc2")
+		(property "Reference" "D17"
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS32F_C719168"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc-lib:SMAF_L3.5-W2.6-LS4.7-RD"
+			(at 182.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Shikues-SS32F_C719168.html"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHIKUES(时科)"
+			(at 182.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS32F"
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C719168"
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf37203d-d912-4d19-b2d1-cec49e9808e5")
+		)
+		(pin "1"
+			(uuid "60ef46de-10b7-4193-8a3d-6507bb12df98")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/e365f6ed-f2b4-4ac9-8336-75c01e8e2e23"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:Schottky,B0520W")
-		(at 158.75 60.96 90)
+		(at 182.88 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2353,7 +2662,7 @@
 		(fields_autoplaced yes)
 		(uuid "546ae7d4-e949-4212-a22f-368d008f8f02")
 		(property "Reference" "D5"
-			(at 159.0675 54.61 90)
+			(at 183.1975 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2670,7 @@
 			)
 		)
 		(property "Value" "B0520W"
-			(at 159.0675 57.15 90)
+			(at 183.1975 45.72 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2369,7 +2678,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_SOD-123"
-			(at 158.75 62.738 90)
+			(at 182.88 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2687,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281443_hongjiacheng-B0520W_C7502707.pdf"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2696,7 @@
 			)
 		)
 		(property "Description" "20V Independent Type 385mV@500mA 500mA SOD-123 Schottky Diodes ROHS"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2705,7 @@
 			)
 		)
 		(property "LCSC" "C7502707"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2714,7 @@
 			)
 		)
 		(property "Stock" "16019"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2723,7 @@
 			)
 		)
 		(property "Price" "0.020USD"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2732,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2741,7 @@
 			)
 		)
 		(property "Minimum Qty" "15"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2750,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2759,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2768,7 @@
 			)
 		)
 		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2777,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2786,7 @@
 			)
 		)
 		(property "Part" "B0520W"
-			(at 158.75 60.96 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

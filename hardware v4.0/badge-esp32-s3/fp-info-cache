@@ -1,4 +1,4 @@
-25243734743917878
+25263356593791973
 AdafruitJoystick
 SW_2765
 
@@ -101171,6 +101171,13 @@ CONN-TH_HX-PM2.54-2X3P-ZC
 6
 6
 lcsc-lib
+DFN-3L_L1.0-W0.6-P0.65-BR
+
+
+0
+3
+3
+lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
@@ -101304,6 +101311,13 @@ JOYTICK-TH_YF16-DFL7.2-B5KO-45-10-B5KO-55--RG-A22
 10
 10
 lcsc-lib
+L0805
+100Ω 100MHz
+
+0
+2
+2
+lcsc-lib
 LED-ARRAY-SMD_L3.7-W3.5-P1.10-TL
 
 
@@ -101312,6 +101326,13 @@ LED-ARRAY-SMD_L3.7-W3.5-P1.10-TL
 6
 lcsc-lib
 LED-SMD_4P-L2.0-W1.3-BR
+
+
+0
+4
+4
+lcsc-lib
+LED-SMD_4P-SK6805MICRO-J
 
 
 0
@@ -101352,6 +101373,13 @@ QFN-28_L5.0-W5.0-P0.50-TL-EP3.3
 0
 29
 29
+lcsc-lib
+R0402
+
+
+0
+2
+2
 lcsc-lib
 RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L
 
@@ -101402,6 +101430,27 @@ SOD-323_L1.7-W1.3-LS2.6-RD
 2
 2
 lcsc-lib
+SOD-323_L1.8-W1.3-LS2.5-FD
+
+
+0
+2
+2
+lcsc-lib
+SOD-323_L1.8-W1.3-LS2.5-RD
+
+
+0
+2
+2
+lcsc-lib
+SOD-323_L1.8-W1.3-LS2.5-RD-1
+
+
+0
+2
+2
+lcsc-lib
 SOD-523_L1.2-W0.8-LS1.6-BI
 
 
@@ -101422,6 +101471,20 @@ SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 0
 8
 8
+lcsc-lib
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR-CW
+
+
+0
+3
+3
+lcsc-lib
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
+SI2301CDS-T1-GE3
+
+0
+3
+3
 lcsc-lib
 SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL
 
@@ -101480,6 +101543,13 @@ SW-TH_KH-SK22D07-G5
 8
 lcsc-lib
 SW-TH_SK-22F18-G050
+
+
+0
+8
+8
+lcsc-lib
+SW-TH_SK22D02G5
 
 
 0
@@ -101576,6 +101646,13 @@ DTC114EE
 0
 3
 3
+misc-lib
+MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom
+Mounting Hole 3.2mm, M3, ISO7380
+mounting hole 3.2mm m3 iso7380
+0
+3
+1
 misc-lib
 QRCodeFootPrint
 

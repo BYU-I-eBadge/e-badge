@@ -1971,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 53.2702) (xy 160.02 62.23)
+			(xy 160.02 53.34) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 36.83) (xy 102.87 45.6502)
+			(xy 102.87 36.83) (xy 102.87 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 53.2702) (xy 102.87 62.23)
+			(xy 102.87 53.34) (xy 102.87 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.83) (xy 160.02 45.6502)
+			(xy 160.02 36.83) (xy 160.02 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2727,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 160.02 49.4602 0)
+		(at 160.02 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,7 +2736,7 @@
 		(fields_autoplaced yes)
 		(uuid "3541ecbf-a69c-48ce-aab3-f8919ccb28b6")
 		(property "Reference" "R51"
-			(at 162.56 49.4601 0)
+			(at 162.56 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2745,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 160.02 49.4602 90)
+			(at 160.02 49.53 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2754,7 +2754,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 158.242 49.4602 90)
+			(at 158.242 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2772,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2781,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2817,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +2871,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +2898,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2916,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2925,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 160.02 49.4602 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3858,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 102.87 49.4602 0)
+		(at 102.87 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3867,7 +3867,7 @@
 		(fields_autoplaced yes)
 		(uuid "c50ee25c-b687-4571-a8eb-43db50f1ea38")
 		(property "Reference" "R47"
-			(at 105.41 49.4601 0)
+			(at 105.41 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3876,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 102.87 49.4602 90)
+			(at 102.87 49.53 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 101.092 49.4602 90)
+			(at 101.092 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3921,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3939,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +3948,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +3957,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +3966,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3975,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3984,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4002,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4011,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4029,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4047,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4056,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 102.87 49.4602 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
