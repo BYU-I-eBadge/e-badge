@@ -213,7 +213,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "VBATT"
+	(fp_text user "+5V"
 		(at 1.26 3.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
