@@ -91,5 +91,5 @@ fabrication/
 !docs/**/*.pdf
 hardware/badge-esp32-s3/~badge-esp32-s3.kicad_sch.lck
 
-# Exception: Allow fabrication output zip.
+# Exception: Allow change-log.
 !*change-log.pdf
