@@ -1,0 +1,1130 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "37346900-15ae-4fca-b3e5-d4184fc2d0f2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc-lib:HX PM2.54-2X14P ZC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Female_2x14:HDR-TH_28P-P2.54-V-F-R2-C14-S2.54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-2x14P%2520ZC/44255779.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Holes Structure:2x14P Pitch:2.54mm Row Spacing:2.54mm Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:2 Number of Positions:28P Current Rating:3A Holes Direction:Top Insulation Height:8.5mm Contact Plating:Gold Operating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "HX PM2.54-2x14P ZC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C42372538"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "间距:2.54mm 2x14P 直插"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HX PM2.54-2X14P ZC_1_0"
+				(rectangle
+					(start -5.08 -19.05)
+					(end 5.08 19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 17.78)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 16.51 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 13.97 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -13.97 0)
+					(length 2.54)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -16.51 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 16.51 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 13.97 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -13.97 180)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -16.51 180)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "IO1"
+		(shape bidirectional)
+		(at 137.16 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26fe57bb-8815-456f-b2bb-b458886816bb")
+	)
+	(hierarchical_label "IO5"
+		(shape bidirectional)
+		(at 137.16 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103d")
+	)
+	(hierarchical_label "IO6"
+		(shape bidirectional)
+		(at 137.16 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103e")
+	)
+	(hierarchical_label "IO4"
+		(shape bidirectional)
+		(at 137.16 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103f")
+	)
+	(hierarchical_label "IO41"
+		(shape bidirectional)
+		(at 137.16 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1040")
+	)
+	(hierarchical_label "IO38"
+		(shape bidirectional)
+		(at 137.16 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1041")
+	)
+	(hierarchical_label "IO15"
+		(shape bidirectional)
+		(at 137.16 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1042")
+	)
+	(hierarchical_label "IO18"
+		(shape bidirectional)
+		(at 137.16 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1043")
+	)
+	(hierarchical_label "IO16"
+		(shape bidirectional)
+		(at 137.16 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1044")
+	)
+	(hierarchical_label "IO17"
+		(shape bidirectional)
+		(at 137.16 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1045")
+	)
+	(hierarchical_label "IO14"
+		(shape bidirectional)
+		(at 137.16 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1046")
+	)
+	(hierarchical_label "IO42"
+		(shape bidirectional)
+		(at 137.16 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1047")
+	)
+	(hierarchical_label "IO2"
+		(shape bidirectional)
+		(at 137.16 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dd36864-2ac2-4f43-a37f-08a47c7205cf")
+	)
+	(hierarchical_label "DownButtonMid"
+		(shape input)
+		(at 121.92 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b86b9bc-9ded-4634-9382-203a4030ec79")
+	)
+	(hierarchical_label "RightButtonMid"
+		(shape input)
+		(at 121.92 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b86b9bc-9ded-4634-9382-203a4030ec7a")
+	)
+	(hierarchical_label "LeftButtonMid"
+		(shape input)
+		(at 121.92 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b86b9bc-9ded-4634-9382-203a4030ec7b")
+	)
+	(hierarchical_label "UpButtonMid"
+		(shape input)
+		(at 121.92 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b86b9bc-9ded-4634-9382-203a4030ec7c")
+	)
+	(hierarchical_label "JoystickYMid"
+		(shape input)
+		(at 121.92 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b86b9bc-9ded-4634-9382-203a4030ec7d")
+	)
+	(hierarchical_label "RGBBlueMid"
+		(shape output)
+		(at 121.92 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f3423-29df-49e4-a194-e58d3c114428")
+	)
+	(hierarchical_label "LEDSingle"
+		(shape output)
+		(at 121.92 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f3423-29df-49e4-a194-e58d3c114429")
+	)
+	(hierarchical_label "RGBGreenMid"
+		(shape output)
+		(at 121.92 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f3423-29df-49e4-a194-e58d3c11442a")
+	)
+	(hierarchical_label "Buzzer"
+		(shape output)
+		(at 121.92 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f3423-29df-49e4-a194-e58d3c11442b")
+	)
+	(hierarchical_label "RGBRedMid"
+		(shape output)
+		(at 121.92 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f3423-29df-49e4-a194-e58d3c11442c")
+	)
+	(hierarchical_label "BButtonMid"
+		(shape input)
+		(at 121.92 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dde7f6b-b696-49a0-a28f-452c199da2eb")
+	)
+	(hierarchical_label "AButtonMid"
+		(shape input)
+		(at 121.92 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dde7f6b-b696-49a0-a28f-452c199da2ec")
+	)
+	(hierarchical_label "AddrLED"
+		(shape input)
+		(at 121.92 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a18ed38-82ab-458b-8166-0f4fb0132904")
+	)
+	(hierarchical_label "IO7"
+		(shape bidirectional)
+		(at 137.16 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c437e2ee-2f2b-4499-9035-42b8ce1bc2f3")
+	)
+	(hierarchical_label "JoystickXMid"
+		(shape input)
+		(at 121.92 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efbf9289-0ba3-4a9f-a95f-0d1b6a40dd63")
+	)
+	(symbol
+		(lib_id "lcsc-lib:HX PM2.54-2X14P ZC")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f426a5a3-e3df-4d18-98ef-57228cf13f05")
+		(property "Reference" "U20"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2x14_female"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_28P-P2.54-V-F-R2-C14-S2.54"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-2x14P%2520ZC/44255779.html"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Holes Structure:2x14P Pitch:2.54mm Row Spacing:2.54mm Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:2 Number of Positions:28P Current Rating:3A Holes Direction:Top Insulation Height:8.5mm Contact Plating:Gold Operating"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HX PM2.54-2x14P ZC"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C42372538"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "间距:2.54mm 2x14P 直插"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "d5535e88-506e-4696-a32d-a5ad09770a6b")
+		)
+		(pin "19"
+			(uuid "cbb39be0-5dcf-4b34-887a-46b4c18388fb")
+		)
+		(pin "21"
+			(uuid "739e5b6a-15cd-4ed9-aec6-8da4c26620f7")
+		)
+		(pin "23"
+			(uuid "c480c8b0-d1e6-449f-b9aa-da50f0d6f09a")
+		)
+		(pin "25"
+			(uuid "fcbafcae-ef21-48d0-a100-597dd57a0390")
+		)
+		(pin "1"
+			(uuid "20f8ebd1-d809-4f56-9032-8a94144979e4")
+		)
+		(pin "9"
+			(uuid "a2c67c65-0d80-4958-bc82-29efc2f5db49")
+		)
+		(pin "11"
+			(uuid "c0c8f532-5b0c-4eed-bfd0-6a2c57622b4b")
+		)
+		(pin "13"
+			(uuid "b8e41d78-50a7-45e2-9a0e-23c9a661f245")
+		)
+		(pin "15"
+			(uuid "94dc5a9c-ea12-4d3e-96bd-7f418316a3f3")
+		)
+		(pin "3"
+			(uuid "cfd697cf-24f0-4273-b404-c3fd6cd2d708")
+		)
+		(pin "7"
+			(uuid "a5bd6229-b941-42fc-962c-a1062f40bd7f")
+		)
+		(pin "5"
+			(uuid "3ebbe44c-cbe6-4842-b008-24e99759a25b")
+		)
+		(pin "26"
+			(uuid "e1094933-d725-4047-8283-516483523c3e")
+		)
+		(pin "28"
+			(uuid "594c3836-c199-4b42-b3c5-3e98a49aeeda")
+		)
+		(pin "2"
+			(uuid "ece42dda-b2d7-4ac9-9920-ecc4d91dc7e3")
+		)
+		(pin "24"
+			(uuid "f886d10e-e11e-41ac-a63e-2dd630e2fd28")
+		)
+		(pin "8"
+			(uuid "88ab9c04-a87d-493e-8792-068454b63ac5")
+		)
+		(pin "16"
+			(uuid "279cef97-5d31-47f9-ae93-62f4a17041ea")
+		)
+		(pin "27"
+			(uuid "fdab31a2-7ef5-4a5c-baba-b1125630d7d8")
+		)
+		(pin "6"
+			(uuid "cd2fd213-ed62-4f7f-b460-12a92d168f05")
+		)
+		(pin "18"
+			(uuid "a19d641c-46ed-4c24-9ea2-ada812f0b4eb")
+		)
+		(pin "22"
+			(uuid "ebcfda37-8473-4b59-98e5-373eedd25b7e")
+		)
+		(pin "4"
+			(uuid "d16daa1f-969f-48b9-8993-862f3404337a")
+		)
+		(pin "10"
+			(uuid "a766badb-48c5-4d23-828d-ae1b89ddbae6")
+		)
+		(pin "12"
+			(uuid "f728dff7-d39a-491d-a901-e884f7f91fbb")
+		)
+		(pin "14"
+			(uuid "67bd71d0-654a-4596-9b9e-8e6fe0beef75")
+		)
+		(pin "20"
+			(uuid "62d90d16-e9db-4309-9542-6391d43178ee")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/959f77f2-91ca-4227-8718-f4511dce7e9a"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
