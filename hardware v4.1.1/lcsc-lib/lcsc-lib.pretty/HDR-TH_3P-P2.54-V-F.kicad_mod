@@ -1,0 +1,161 @@
+(footprint "HDR-TH_3P-P2.54-V-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "43231e43-dd16-4050-9ebf-aa7efd3ba180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_3P-P2.54-V-F"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "031f88b7-c0c9-4544-8382-4122df84bbb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12437f2b-6790-4598-b946-1a154ea9569b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08a7f74b-00f4-4968-b975-05a629030a7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.06 -1.25)
+		(end -4.06 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "017583cb-a9b8-497f-8626-4ecd835c52c6")
+	)
+	(fp_line
+		(start -4.06 1.25)
+		(end 4.06 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81168456-ce31-481b-97a9-1943631d0309")
+	)
+	(fp_line
+		(start -1.27 -1.25)
+		(end -1.27 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a30272be-476e-49f6-9237-e47b76ddc053")
+	)
+	(fp_line
+		(start 4.06 -1.25)
+		(end -4.06 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59ad3e58-84a0-4d3b-9d69-b9596d282679")
+	)
+	(fp_line
+		(start 4.06 1.25)
+		(end 4.06 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "412f0e77-858a-4892-bb1d-b482a29dbfde")
+	)
+	(fp_circle
+		(center -4.06 1.25)
+		(end -4.03 1.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb5c9b9d-628e-450b-8c26-025dd891d7c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "df163970-c435-4ae8-b49a-d8408492a348")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.57 1.57)
+		(drill 1.020013)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38c80a8e-9a4a-432a-9b1d-1ab26b213dd4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.57 1.57)
+		(drill 1.020013)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89d50dfc-9047-4abc-a055-5f5a941c1b03")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.57 1.57)
+		(drill 1.020013)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3f4a547-b204-4ded-b885-ea85652d8101")
+	)
+	(embedded_fonts no)
+	(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/HDR2.54-F-LI-1X3P.wrl"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

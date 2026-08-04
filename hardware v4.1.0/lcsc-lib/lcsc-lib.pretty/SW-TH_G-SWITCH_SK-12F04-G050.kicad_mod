@@ -1,0 +1,170 @@
+(footprint "SW-TH_G-SWITCH_SK-12F04-G050"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "538faa6f-fbd2-4b68-8071-bb57951072fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-TH_G-SWITCH_SK-12F04-G050"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "ca7709e8-b5f6-4276-834e-8deaf703ad6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edcb266a-cc0b-4337-ad40-ce3299f6597d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2495c2df-a1b1-4ee6-9010-868ec2aeef64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.1 -2.8)
+		(end -6.1 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe96f253-6448-4a2d-9da8-d2c102090492")
+	)
+	(fp_line
+		(start -6.1 -2.8)
+		(end 6.1 -2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "814fe3e4-a1cb-4e9a-9012-ec7db4cdedf3")
+	)
+	(fp_line
+		(start -3 7.8)
+		(end -3 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d85a117-c196-4fc7-85f6-4099344e1a8b")
+	)
+	(fp_line
+		(start 0 2.8)
+		(end 0 7.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88c8eef9-1712-45c6-86a0-f2b44fdb455f")
+	)
+	(fp_line
+		(start 0 7.8)
+		(end -3 7.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "608dcce3-737f-4fa1-9f95-56cce85e2b5b")
+	)
+	(fp_line
+		(start 6.1 -2.8)
+		(end 6.1 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0ee4408-4d02-41d6-b066-9567529e45f6")
+	)
+	(fp_line
+		(start 6.1 2.8)
+		(end -6.1 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "185dbe67-b669-4e58-9967-820d9d66167b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1118fdc4-094d-4f7a-8052-d3b878d1414b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3 0)
+		(size 1.8 1.8)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86e84ea3-2c9a-4a5c-8748-98cdc1c099aa")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f3f81e9-d880-414c-a4b5-d3241c761c9c")
+	)
+	(pad "3" thru_hole circle
+		(at 3 0)
+		(size 1.8 1.8)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64502f3c-ad02-462f-ac12-b2d5bfb379bd")
+	)
+	(embedded_fonts no)
+	(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/SW-TH_G-SWITCH_SK-12F04-G050.wrl"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
