@@ -970,6 +970,36 @@
           "label": "Manufacturer Part",
           "name": "Manufacturer Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate LCSC",
+          "name": "Alternate LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
         }
       ],
       "filter_string": "",

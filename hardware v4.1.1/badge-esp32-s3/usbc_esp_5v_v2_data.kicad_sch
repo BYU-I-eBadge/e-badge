@@ -5611,21 +5611,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 17.78 19.05) (xy 172.72 19.05) (xy 172.72 68.58) (xy 17.78 68.58)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 3ef6eb2c-4b66-4356-8095-ed839610173a)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 17.78 74.93) (xy 238.76 74.93) (xy 238.76 161.29) (xy 17.78 161.29)
 			)
 			(stroke
@@ -5635,7 +5620,22 @@
 			(fill
 				(type none)
 			)
-			(uuid b027a65a-b3a8-4ba5-b7ae-22f654425a2f)
+			(uuid 309f2015-ef08-42ff-8264-7318390827b5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 17.78 19.05) (xy 172.72 19.05) (xy 172.72 68.58) (xy 17.78 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 39441d97-e3fa-4ffe-8fe5-36ac2b7f6440)
 		)
 	)
 	(rule_area
@@ -5650,7 +5650,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b4644c84-65a4-434d-98e1-ae356d7211f8)
+			(uuid b2fa1ef0-9417-4754-b901-7c8426b78cf6)
 		)
 	)
 	(symbol
@@ -5905,6 +5905,24 @@
 		)
 		(property "LCSC Part" "C2875458"
 			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate LCSC" "C2687365"
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "This alternate part is more complex and overkill for this situation but will work as a drop in replacement. It also will see about a 4% higher current limit as it uses a different current limit equation."
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,6 +9000,24 @@
 		)
 		(property "LCSC Part" "C2875458"
 			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate LCSC" "C2687365"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "This alternate part is more complex and overkill for this situation but will work as a drop in replacement. It also will see about a 4% higher current limit as it uses a different current limit equation."
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
