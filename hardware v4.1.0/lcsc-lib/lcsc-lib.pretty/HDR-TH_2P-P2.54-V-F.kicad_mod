@@ -1,0 +1,222 @@
+(footprint "HDR-TH_2P-P2.54-V-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U?"
+		(at 0 -2.077 0)
+		(layer "F.SilkS")
+		(uuid "bab7a0bc-3476-456b-912a-e33e83f8a925")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_2P-P2.54-V-F"
+		(at 0 2.077 0)
+		(layer "F.Fab")
+		(uuid "0d6c4d3a-58e8-4881-966a-e5b9f74ce1e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3584d64d-5e51-485f-b317-0bcfde616259")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4cd1788-83d3-4ca0-955a-2ca1cad9069f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "925d5dffa823422895d76d9dc6f5e8cd"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "8b3eb512-e5cc-450b-9481-4af0de4d5bba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "5.48 2.5"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fc1750b0-21e6-4cb9-91c4-db504fc17e0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.74 -1.25)
+		(end 2.74 -1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bdf18877-bc4d-493d-9a63-3bcb067931f4")
+	)
+	(fp_line
+		(start -2.74 1.25)
+		(end -2.74 -1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a12da92-dabe-4871-a9e2-5d324c60c48c")
+	)
+	(fp_line
+		(start 2.74 -1.25)
+		(end 2.74 1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "907c9692-04d9-43cc-8330-aa017a7e2fd0")
+	)
+	(fp_line
+		(start 2.74 1.25)
+		(end -2.74 1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be52a48e-f2a5-4a0c-9d47-b0037aae2d57")
+	)
+	(fp_poly
+		(pts
+			(xy -1.67 -0.1) (xy -0.87 -0.1) (xy -0.87 0.1) (xy -1.67 0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "cd1843af-7623-4ba2-836e-97b3b28fe154")
+	)
+	(fp_poly
+		(pts
+			(xy 0.87 -0.1) (xy 1.67 -0.1) (xy 1.67 0.1) (xy 0.87 0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "7d3f7ff8-073f-44dd-8b6b-0a787541f35a")
+	)
+	(fp_line
+		(start -2.74 -1.25)
+		(end 2.74 -1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "69034d92-47dd-44f7-80a4-c681504a14be")
+	)
+	(fp_line
+		(start -2.74 1.25)
+		(end -2.74 -1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "dec60040-966a-4871-be91-494664252377")
+	)
+	(fp_line
+		(start 2.74 -1.25)
+		(end 2.74 1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "fea0f872-4a8b-47f0-9cd9-e3ee26cdf72c")
+	)
+	(fp_line
+		(start 2.74 1.25)
+		(end -2.74 1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "69ef03f7-ec69-42ba-ad2c-a9e1396d32b5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.684567 1.227039) (xy -2.717039 1.194567) (xy -2.762961 1.194567) (xy -2.795433 1.227039) (xy -2.795433 1.272961)
+			(xy -2.762961 1.305433) (xy -2.717039 1.305433) (xy -2.684567 1.272961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "88a32dc3-811c-498c-9fdc-90b206fa6b63")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2aba9963-a32d-4db9-8bde-ad254b53646e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "17e946de-62e7-41bb-a21b-12034ee4fc78")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/HDR-TH_2P-P2.54-F-LI-1X2P.step"
+		(offset
+			(xyz 0 0 -3.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

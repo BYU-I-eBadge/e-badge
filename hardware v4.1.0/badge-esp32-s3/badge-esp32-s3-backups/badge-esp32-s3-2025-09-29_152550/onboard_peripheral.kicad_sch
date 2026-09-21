@@ -1,0 +1,1314 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ae5d1b00-b9ab-4b40-a4af-20fcfcbe0c42")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc-lib:FH2.54-09-02PZD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FH2.54-09-02PZD"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7500771"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FH2.54-09-02PZD_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 45.72 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "055c732d-03c6-40a6-9664-dc2bc02f6b0e")
+	)
+	(junction
+		(at 158.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b047561-f396-4480-9910-8d446563fe7c")
+	)
+	(junction
+		(at 147.32 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1e82fa-2053-4473-964a-b92e66697a04")
+	)
+	(junction
+		(at 107.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "546cfa5f-79ee-4843-bdab-4e4123951502")
+	)
+	(junction
+		(at 147.32 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aee7bfed-b028-4319-a710-48772c689207")
+	)
+	(junction
+		(at 120.65 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83d20f2-d37f-4562-8361-90b7b1e1683f")
+	)
+	(junction
+		(at 86.36 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb6124ee-10df-4469-a94b-d4d1acd46560")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04129d74-81a7-457c-ad01-587213fd1b3e")
+	)
+	(wire
+		(pts
+			(xy 135.89 77.47) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0840156b-0e24-4e34-b049-e79afa4f3503")
+	)
+	(wire
+		(pts
+			(xy 39.37 153.67) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7c2795-0f45-42a6-927a-0d37ae22ee8a")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d03789b-5fb5-4ede-8bce-dc7de1fd0404")
+	)
+	(wire
+		(pts
+			(xy 39.37 153.67) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fed109a-0bfb-4294-bf19-8873f807e655")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30353353-546b-497d-af3f-da04dd52e46e")
+	)
+	(wire
+		(pts
+			(xy 149.86 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a6b487-83ef-49b6-97f1-0b3ba7be33ab")
+	)
+	(wire
+		(pts
+			(xy 166.37 74.93) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37dc6edf-b714-4834-89b5-92ad544e59cd")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40982bd8-bbb9-43f9-9bf7-406790a8be49")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45783504-3c44-4a41-b063-e4cc7ad0ff5f")
+	)
+	(wire
+		(pts
+			(xy 74.93 78.74) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4944e3bf-2165-456c-b69d-02dafda12f44")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55265a6e-efb1-44e9-97ab-fb06f54a6f96")
+	)
+	(wire
+		(pts
+			(xy 86.36 41.91) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56427ad6-988a-4485-934f-14212cbbb3f9")
+	)
+	(wire
+		(pts
+			(xy 95.25 78.74) (xy 95.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fa704c-086b-4224-b95b-fc1411e3c909")
+	)
+	(wire
+		(pts
+			(xy 77.47 119.38) (xy 87.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594db657-8ab4-4270-ae63-67118dd960f8")
+	)
+	(wire
+		(pts
+			(xy 53.34 173.99) (xy 31.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da2f754-a5ab-487e-ae1e-af771a5426a2")
+	)
+	(wire
+		(pts
+			(xy 158.75 63.5) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606a7136-c538-43cb-8408-62137e4e8121")
+	)
+	(wire
+		(pts
+			(xy 77.47 116.84) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a3bd85-0876-463a-b38d-0ea597b6dae9")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765d30db-b5c6-47ec-ade0-ebcc07bd5682")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5d6dfd-5cca-4b46-b620-cf433160abda")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0f1c37-26ab-4c18-917b-e3900acb8719")
+	)
+	(wire
+		(pts
+			(xy 86.36 41.91) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805b8778-9e28-4805-8e17-04255b0c8821")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f7f820-d3bb-4f3e-874a-ff5d083bd150")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d329e52-5f74-41ce-bce4-816cf8abba6b")
+	)
+	(wire
+		(pts
+			(xy 90.17 160.02) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddd49c8-5a2e-44ad-b419-079d8a7a25a9")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e82dff5-6dc1-4564-90fe-fef5b8c4050e")
+	)
+	(wire
+		(pts
+			(xy 120.65 41.91) (xy 147.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f65b41b-24c6-4063-89a0-bfbc30c7414e")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924cdeca-6c23-4f28-bd65-213fdc7489a4")
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d550bd-f6b4-4280-8c7f-e0ce39e34809")
+	)
+	(wire
+		(pts
+			(xy 31.75 156.21) (xy 31.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c198f5-bbd3-4dec-9e26-01436c36db16")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24ced4f-9bdd-4997-9134-203a589c3ff7")
+	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44f759b-0d3c-4710-b88b-3ad41e0561f7")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b817b9f5-be4d-444e-a122-b432d4f22181")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8af0a9e-ff66-468e-95bd-e180d61f7249")
+	)
+	(wire
+		(pts
+			(xy 154.94 107.95) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac55273-0fc4-4e60-b682-8dc149a357ae")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1eb2c4-2ed5-4fb9-b0b3-96c3fc41b38d")
+	)
+	(wire
+		(pts
+			(xy 53.34 171.45) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd46702f-9963-4de1-9b2f-cf53dbf40175")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ac2055-211b-42d3-9670-59043491d3e9")
+	)
+	(wire
+		(pts
+			(xy 120.65 38.1) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24266e1-886f-4fef-b00e-7e6897bdec10")
+	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 86.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd45f92-a9c2-4652-831d-b84566975d1e")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2b658f-1f79-4424-af20-a582ac01ab1d")
+	)
+	(hierarchical_label "LeftbuttonGPIO"
+		(shape input)
+		(at 135.89 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b9cd378-31b6-4d44-a11f-307ffebeb121")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape bidirectional)
+		(at 100.33 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22d0e8d7-c303-44ff-b184-bfee5c1a59b0")
+	)
+	(hierarchical_label "RightbuttonGPIO"
+		(shape input)
+		(at 166.37 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40f6726b-fc7e-4e9c-a155-f52d603cdec8")
+	)
+	(hierarchical_label "DownbuttonGPIO"
+		(shape input)
+		(at 153.67 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66cfb7cd-2c75-412d-a524-ec0e70cd96ee")
+	)
+	(hierarchical_label "BbuttonGPIO"
+		(shape input)
+		(at 95.25 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7121ba7c-0313-4f5e-a922-7af3b0948269")
+	)
+	(hierarchical_label "AbuttonGPIO"
+		(shape input)
+		(at 74.93 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f551aaf-1841-4f6a-9bb4-b8c5f5a12463")
+	)
+	(hierarchical_label "3.3v"
+		(shape input)
+		(at 120.65 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97a7f9ac-e92c-4d42-9331-a7eccecd1d95")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 100.33 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9be3912a-aa40-4017-b2c4-ced2742ef386")
+	)
+	(hierarchical_label "JoystickXout"
+		(shape input)
+		(at 87.63 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cefda43e-401c-42c7-859a-9f241367ded7")
+	)
+	(hierarchical_label "UpbuttonGPIO"
+		(shape input)
+		(at 149.86 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4cd57d3-def3-408e-8529-6ef65960373b")
+	)
+	(hierarchical_label "JoystickYout"
+		(shape input)
+		(at 87.63 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbb4438c-5324-4faf-b0ab-13fa53d3ebeb")
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-02PZD")
+		(at 26.67 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2037b15-17c6-4901-8998-aa01346153f8")
+		(property "Reference" "U17"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH2.54-09-02PZD"
+			(at 26.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+			(at 26.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500771"
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c6b8ae7-3329-4689-aa14-bff28f30bd44")
+		)
+		(pin "1"
+			(uuid "ec7a50d2-6107-4a84-8168-df277f88801a")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 80.01)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c6f020c-1e0e-43cd-8a36-0a56f6d3220b")
+		(property "Sheetname" "Left"
+			(at 138.43 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 138.43 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 146.05 80.01 90)
+			(uuid "8e93acd0-5014-4ba6-ac87-4ea53b9ffebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 138.43 87.63 180)
+			(uuid "ad750cd4-bc18-4f55-8e4d-4f15399f6f97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 110.49)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e604a77-d00c-4663-aa0e-d86b906e110e")
+		(property "Sheetname" "Joystick"
+			(at 54.61 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Joystick.kicad_sch"
+			(at 54.61 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3vin" input
+			(at 54.61 114.3 180)
+			(uuid "22f83e4f-b8a7-49b8-848b-9702f6c8e546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Xout(analoge)" input
+			(at 77.47 116.84 0)
+			(uuid "1d4de08a-3479-4d30-8544-888a83ad43ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Yout(analoge" input
+			(at 77.47 119.38 0)
+			(uuid "5480fead-29d8-4711-8c1e-6be982e8311a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 100.33)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26f14f73-3c64-431d-bfa5-e30d3515d6c4")
+		(property "Sheetname" "Down"
+			(at 154.94 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 154.94 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 162.56 100.33 90)
+			(uuid "137d00a6-15d5-461b-827c-0053e120942e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 154.94 107.95 180)
+			(uuid "738503f2-06f9-4218-bc06-67e9f80538dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 82.55)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a24e4638-e764-42f8-9a03-a3574c3b6e5b")
+		(property "Sheetname" "Right"
+			(at 167.64 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 167.64 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 175.26 82.55 90)
+			(uuid "5c767c5e-3607-47a2-9b9c-1bc70a032422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 167.64 90.17 180)
+			(uuid "66283c2b-cc16-4039-bbfe-f97c6e211c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 63.5)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b99b1c65-2141-4657-af08-7b837c45a510")
+		(property "Sheetname" "Up"
+			(at 151.13 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 151.13 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 158.75 63.5 90)
+			(uuid "9113d2a0-fb4e-4080-a739-a2ed52ebab74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 151.13 71.12 180)
+			(uuid "3e71e968-3435-4b0a-9ca2-642fac8927b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 153.67)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed10a1a3-8649-458b-a567-b8a974afd909")
+		(property "Sheetname" "Accelormeter"
+			(at 53.34 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accelormeter.kicad_sch"
+			(at 53.34 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT 1 (output to MCU, NN) " input
+			(at 53.34 171.45 180)
+			(uuid "3bed2e15-c6b6-4f81-a57a-daa59035a726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 90.17 160.02 0)
+			(uuid "0eccf66c-7980-4933-924a-7ea579be149e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 90.17 157.48 0)
+			(uuid "8b9a9c9e-4ce3-4354-9012-06dc7a3f8ac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT 2 (output to MCU, NN) " input
+			(at 53.34 173.99 180)
+			(uuid "1ce97c60-e14d-4610-b52f-54ce8636e9e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v in" input
+			(at 53.34 156.21 180)
+			(uuid "3badd819-b5a5-47a6-941e-d1d913c92465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 71.12)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f11ff8f0-58bf-4f8c-9221-02eb2354874a")
+		(property "Sheetname" "B"
+			(at 100.33 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 100.33 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 107.95 71.12 90)
+			(uuid "bcd2f54d-a21d-4abd-a8ab-38bf7fe10a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 100.33 78.74 180)
+			(uuid "546cb073-eddd-41fc-b9b4-2f9ffa34c142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 71.12)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb6d2a04-654d-4115-8ed9-b9891bab072c")
+		(property "Sheetname" "A"
+			(at 78.74 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PushButtonPD.kicad_sch"
+			(at 78.74 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 86.36 71.12 90)
+			(uuid "078cd8bc-f489-4912-a32d-3ee989198373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 78.74 78.74 180)
+			(uuid "99514246-e258-4e2f-a3ac-0fc6379b5d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(page "19")
+				)
+			)
+		)
+	)
+)

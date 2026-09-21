@@ -1,0 +1,149 @@
+(footprint "SOD-123_L2.7-W1.6-LS3.7-RD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "d49ab149-c0bb-458d-996a-3df7ceae7429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD-123_L2.7-W1.6-LS3.7-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "08437fd7-ab51-4afa-8588-3f420ca4e04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "236fd3de-cfa4-42e0-b1ee-cf99bf86c3f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a130c8-093d-44f0-989e-d3349d941e9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -0.93)
+		(end 1.38 -0.93)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63ac4643-56d3-449a-8f3b-afdc960d7337")
+	)
+	(fp_line
+		(start -1.38 0.93)
+		(end 1.38 0.93)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3865630a-23e9-4fc0-9e7f-32703b1595d0")
+	)
+	(fp_line
+		(start -0.97 -0.93)
+		(end -0.97 0.93)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73687802-6cea-4f05-9bd3-d4405479be55")
+	)
+	(fp_line
+		(start 1.38 -0.93)
+		(end 1.38 -0.68)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "400013c6-c8c5-4148-86e4-8f62b5eb8aa0")
+	)
+	(fp_line
+		(start 1.38 0.93)
+		(end 1.38 0.68)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0026a72-09c4-41a4-bd19-57167be04e6d")
+	)
+	(fp_circle
+		(center -1.85 0.8)
+		(end -1.82 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2912701d-557b-419c-9f5c-c4221b3b8ef1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6530561a-ece1-4803-b726-c5715ce25385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.64 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ddd3a163-8a4d-49e8-8078-dbbc33013d54")
+	)
+	(pad "2" smd rect
+		(at 1.64 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d757ad0c-1346-4ca3-b833-9b6c6f715c65")
+	)
+	(embedded_fonts no)
+	(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/SOD-123_L2.7-W1.6-H1.4-LS3.7.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
