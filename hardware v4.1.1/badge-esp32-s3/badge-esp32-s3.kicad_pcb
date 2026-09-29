@@ -40954,7 +40954,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63201WU-7"
+		(property "Value" "AP63203WU-7"
 			(at 0 5.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40990,7 +40990,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2071044"
+		(property "LCSC Part" "C780769"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41015,7 +41015,7 @@
 				)
 			)
 		)
-		(property "MPN" "AP63201WU-7"
+		(property "MPN" "AP63203WU-7"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

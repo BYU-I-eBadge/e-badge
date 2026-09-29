@@ -10062,7 +10062,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63201WU-7"
+		(property "Value" "AP63203WU-7"
 			(at 143.51 107.95 0)
 			(effects
 				(font
@@ -10106,7 +10106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AP63201WU-7"
+		(property "MPN" "AP63203WU-7"
 			(at 143.51 133.35 0)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2071044"
+		(property "LCSC Part" "C780769"
 			(at 143.51 135.89 0)
 			(effects
 				(font
