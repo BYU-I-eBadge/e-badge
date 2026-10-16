@@ -74286,6 +74286,17 @@
 			(justify right)
 		)
 	)
+	(gr_text "LED"
+		(at 117.344341 119.469919 90)
+		(layer "F.SilkS")
+		(uuid "906a4372-b320-4166-9572-52df76cf3cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "-"
 		(at 197.675 86.4595 0)
 		(layer "F.SilkS" knockout)
@@ -74573,6 +74584,17 @@
 				(thickness 0.15)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "RGB LED"
+		(at 110.813489 119.767087 90)
+		(layer "F.SilkS")
+		(uuid "d929af2e-acf6-43c1-89f5-28c10278448b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "IO4"
@@ -75719,28 +75741,6 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
-		)
-	)
-	(gr_text "LED"
-		(at 117.344341 119.469919 90)
-		(layer "F.Fab")
-		(uuid "906a4372-b320-4166-9572-52df76cf3cbc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "RGB LED"
-		(at 110.813489 119.767087 90)
-		(layer "F.Fab")
-		(uuid "d929af2e-acf6-43c1-89f5-28c10278448b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(segment
