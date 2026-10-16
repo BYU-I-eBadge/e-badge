@@ -31089,6 +31089,7 @@
 		(property "Reference" "D14"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6ca2f817-cd83-4f53-a5a6-9f9e44b69553")
 			(effects
 				(font
@@ -31100,6 +31101,7 @@
 		(property "Value" "Red"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "19cf6c62-abb0-4dc8-bf32-566d0fb9dfab")
 			(effects
 				(font
@@ -44244,6 +44246,7 @@
 		(property "Reference" "LED1"
 			(at 0.124 2.518 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bf322246-e48c-4cb0-904f-7f3635a79f1c")
 			(effects
 				(font
@@ -75716,6 +75719,28 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "LED"
+		(at 117.344341 119.469919 90)
+		(layer "F.Fab")
+		(uuid "906a4372-b320-4166-9572-52df76cf3cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RGB LED"
+		(at 110.813489 119.767087 90)
+		(layer "F.Fab")
+		(uuid "d929af2e-acf6-43c1-89f5-28c10278448b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(segment
